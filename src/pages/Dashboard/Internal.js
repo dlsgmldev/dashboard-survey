@@ -636,7 +636,7 @@ const DashboardInternal = () => {
                     </table>
                   </div>
                 </div>
-                <div className="card shadow p-3 mt-5">
+                {/* <div className="card shadow p-3 mt-5">
                   <p className="fs-5 fw-bold mb-1">
                     Employer Branding 1.0 (Mind)
                   </p>
@@ -748,7 +748,7 @@ const DashboardInternal = () => {
                     />
                   </div>
                   <p>{soul.message}</p>
-                </div>
+                </div> */}
               </div>
             ) : loadingChart === true ? (
               <div className="text-center p-4">

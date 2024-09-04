@@ -13,7 +13,7 @@ const LayoutAdminInternal = ({ children }) => {
         >
           <p className="fs-6 fw-bold mt-3 pb-2 border-bottom border-3 border-light text-center">
             Dashboard Survey <br />
-            Stellar Award 2023
+            Stellar Award 2024
           </p>
           <div
             className="d-flex pointer sidebar-menu"
