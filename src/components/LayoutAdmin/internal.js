@@ -1,9 +1,10 @@
 import React from "react";
 import { Outlet, useNavigate } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 const LayoutAdminInternal = ({ children }) => {
   const navigate = useNavigate();
-
+  const { title } = useParams();
   return (
     <div className="wrapper">
       <div className="row h-100 ms-0">
@@ -13,7 +14,7 @@ const LayoutAdminInternal = ({ children }) => {
         >
           <p className="fs-6 fw-bold mt-3 pb-2 border-bottom border-3 border-light text-center">
             Dashboard Survey <br />
-            Stellar Award 2024
+            {title}
           </p>
           <div
             className="d-flex pointer sidebar-menu"

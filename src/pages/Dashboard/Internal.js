@@ -809,7 +809,7 @@ const DashboardInternal = () => {
                       <th scope="col">Name</th>
                       <th scope="col">Email</th>
                       <th scope="col">Status</th>
-                      <th scope="col">Company</th>
+                      <th scope="col">Company / Division</th>
                     </tr>
                   </thead>
                   <tbody>

@@ -10,7 +10,7 @@ const App = () => (
   <BrowserRouter>
     <Routes>
       <Route element={<LayoutAdminInternal />}>
-        <Route path="/:id" element={<DashboardInternal />} />
+        <Route path="/:id/:title" element={<DashboardInternal />} />
       </Route>
       <Route element={<LayoutAdminExternal />}>
         <Route path="/external/:id" element={<DashboardExternal />} />
